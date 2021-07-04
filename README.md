@@ -6,19 +6,21 @@ This small project enables you to list public repositories of a user.
 
 1. **Clone the repo**
 
-```git clone https://github.com/ardahdmi/mvst-challenge.git
-   cd mvst-challenge
+```
+  git clone https://github.com/ardahdmi/mvst-challenge.git
+  cd mvst-challenge
 ```
 
 2. **Create a next.config.js file and set GITHUB_ACCESS_TOKEN environment variable**
 
-```cat token.txt > next.config.js
-
+```
+  cat token.txt > next.config.js
 ```
 
 3. **Install dependencies**
 
-```yarn install
+```
+   yarn install
    yarn dev
 ```
 
