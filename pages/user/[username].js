@@ -80,6 +80,7 @@ const UserPage = ({ userData }) => {
 };
 
 export async function getServerSideProps(context) {
+  // Gets query and gives to the component as props
   let { data } = await client.query({
     query: GET_USER,
     variables: { username: context.query.username, after: null, before: null },
