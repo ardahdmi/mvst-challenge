@@ -1,29 +1,40 @@
-# Next.js + Tailwind CSS Example
+# GitHub Repo Explorer
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This small project enables you to list public repositories of a user.
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+## How to Use
 
-## Preview
+1. **Clone the repo**
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+```git clone https://github.com/ardahdmi/mvst-challenge.git
+   cd mvst-challenge
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+2. **Create a next.config.js file and set GITHUB_ACCESS_TOKEN environment variable**
+
+```cat token.txt > next.config.js
+
+```
+
+3. **Install dependencies**
+
+```yarn install
+   yarn dev
+```
+
+## Future Improvements and Acknowledgements
+
+### Without time constraints and aim to improve this project, I would add the following steps to further improvements:
+
+1. **GraphQL Pagination**
+2. **GitHub Login**
+3. **Statistical Analysis and Several Charts**
+4. **Testing**
+
+### Acknowledgements
+
+It's been a while since I last worked with a time constraint. I must admit, I really liked it! I decided to use GraphQL API and learnt quite a lot. Even though I had several deadlines coming up, I wanted to work on it as much as I could. All in all, it was a nice experience and thank you for reminding me that time pressure does stimulate learning!
+
+I would deploy the app but since I couldn't get tokens from the user, it wouldn't make any sense. So I decided not to..
+
+_PS: I would love to get feedback and guidance about my mistakes and specifically, pagination and getting OAuth token from the user_

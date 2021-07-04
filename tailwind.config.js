@@ -4,7 +4,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {},
   variants: {
-    extend: {},
+    extend: {
+      backgroundColor: ['disabled'],
+      textColor: ['disabled'],
+    },
   },
   plugins: [],
 };

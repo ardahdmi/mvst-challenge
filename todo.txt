@@ -1,7 +1,4 @@
 user page
-  user profile card
-  user repo search
-  user profile pagination
   user profile chart
 Get GitHub key
 test scheme

@@ -1,6 +1,8 @@
 import { useState } from 'react';
-import Head from 'next/head';
 import { useRouter } from 'next/router';
+import Head from 'next/head';
+import LoginLogoutButton from '../components/LoginLogoutButton';
+
 export default function Home() {
   const [username, setUsername] = useState('');
   const router = useRouter();
@@ -32,6 +34,7 @@ export default function Home() {
         <p className='mt-6 text-lg sm:text-2xl font-semibold'>
           Start by typing your favorite developer's username!
         </p>
+
         <form
           className='bg-gray-100 hover:bg-gray-200 hover:shadow-md transition duration-200 shadow-sm rounded-md px-8 pt-6 pb-8 mt-12 w-6/12'
           onSubmit={onSubmit}>
